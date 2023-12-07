@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+android {
+    namespace 'com.kavin.automotive_media_sample.shared'
+    compileSdkVersion "android-UpsideDownCakePrivacySandbox"
+
+    defaultConfig {
+        minSdkVersion "UpsideDownCakePrivacySandbox"
+        targetSdkVersion "UpsideDownCakePrivacySandbox"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.media:media:1.6.0'
+}

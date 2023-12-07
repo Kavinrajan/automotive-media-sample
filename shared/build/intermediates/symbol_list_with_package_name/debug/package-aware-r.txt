@@ -1,0 +1,2 @@
+com.kavin.automotive_media_sample.shared
+xml automotive_app_desc
